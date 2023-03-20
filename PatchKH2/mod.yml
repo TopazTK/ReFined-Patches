@@ -1,0 +1,77 @@
+title: Kingdom Hearts - Re:Fined
+description: An all-purpose QoL and Bugfix for the Kingdom Hearts series.
+assets:
+
+- name: msg/us/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: en
+- name: msg/gr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: gr
+- name: msg/sp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: sp
+- name: msg/it/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: it
+- name: msg/fr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: fr
+- name: msg/jp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: jp
+
+- name: msg/us/ca.bar
+  method: binarc
+  source:
+  - name: ca
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/ca.yml
+        language: en
+- name: libretto-ca.bar
+  method: copy
+  source:
+  - name: libretto-ca.bar
+
+- name: 03system.bin
+  method: copy
+  source:
+  - name: sys/03system.bin
