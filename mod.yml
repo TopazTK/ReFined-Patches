@@ -1,0 +1,870 @@
+title: Kingdom Hearts - Re:Fined
+originalAuthor: TopazTK
+description: An all-purpose QoL and Bugfix for the Kingdom Hearts series.
+assets:
+
+- name: remastered/msg/jp/fontimage.bar/JP_fontimage_bar2.png
+  multi:
+  - name: remastered/msg/us/fontimage.bar/US_fontimage_bar2.png
+  - name: remastered/msg/fr/fontimage.bar/FR_fontimage_bar2.png
+  - name: remastered/msg/gr/fontimage.bar/GR_fontimage_bar2.png
+  - name: remastered/msg/it/fontimage.bar/IT_fontimage_bar2.png
+  - name: remastered/msg/sp/fontimage.bar/SP_fontimage_bar2.png
+  platform: pc
+  method: copy
+  source:
+  - name: sys/fontimage.png
+
+- name: msg/us/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: en
+- name: msg/gr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: gr
+- name: msg/sp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: sp
+- name: msg/it/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: it
+- name: msg/fr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: fr
+- name: msg/jp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/sys.yml
+        language: jp
+
+- name: msg/us/ca.bar
+  method: binarc
+  source:
+  - name: ca
+    type: list
+    method: kh2msg
+    source:
+      - name: msg/ca.yml
+        language: en
+- name: libretto-ca.bar
+  method: copy
+  source:
+  - name: libretto-ca.bar
+
+- name: 03system.bin
+  method: copy
+  source:
+  - name: sys/03system.bin
+
+- name: ard/es00.ard
+  multi:
+  - name: ard/jp/es00.ard
+  - name: ard/us/es00.ard
+  - name: ard/fr/es00.ard
+  - name: ard/gr/es00.ard
+  - name: ard/it/es00.ard
+  - name: ard/sp/es00.ard
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: evt/es00.asm
+
+- name: bgm/ps2md050.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md050.win32.scd
+- name: bgm/ps2md051.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md051.win32.scd
+- name: bgm/ps2md052.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md052.win32.scd
+- name: bgm/ps2md053.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md053.win32.scd
+- name: bgm/ps2md054.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md054.win32.scd
+- name: bgm/ps2md055.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md055.win32.scd
+- name: bgm/ps2md059.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md059.win32.scd
+- name: bgm/ps2md060.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md060.win32.scd
+- name: bgm/ps2md061.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md061.win32.scd
+- name: bgm/ps2md062.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md062.win32.scd
+- name: bgm/ps2md063.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md063.win32.scd
+- name: bgm/ps2md064.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md064.win32.scd
+- name: bgm/ps2md065.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md065.win32.scd
+- name: bgm/ps2md066.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md066.win32.scd
+- name: bgm/ps2md067.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md067.win32.scd
+- name: bgm/ps2md068.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md068.win32.scd
+- name: bgm/ps2md069.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md069.win32.scd
+- name: bgm/ps2md081.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md081.win32.scd
+- name: bgm/ps2md084.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md084.win32.scd
+- name: bgm/ps2md085.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md085.win32.scd
+- name: bgm/ps2md086.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md086.win32.scd
+- name: bgm/ps2md087.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md087.win32.scd
+- name: bgm/ps2md088.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md088.win32.scd
+- name: bgm/ps2md089.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md089.win32.scd
+- name: bgm/ps2md090.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md090.win32.scd
+- name: bgm/ps2md091.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md091.win32.scd
+- name: bgm/ps2md092.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md092.win32.scd
+- name: bgm/ps2md093.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md093.win32.scd
+- name: bgm/ps2md094.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md094.win32.scd
+- name: bgm/ps2md095.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md095.win32.scd
+- name: bgm/ps2md096.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md096.win32.scd
+- name: bgm/ps2md097.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md097.win32.scd
+- name: bgm/ps2md098.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md098.win32.scd
+- name: bgm/ps2md099.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md099.win32.scd
+- name: bgm/ps2md100.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md100.win32.scd
+- name: bgm/ps2md101.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md101.win32.scd
+- name: bgm/ps2md102.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md102.win32.scd
+- name: bgm/ps2md103.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md103.win32.scd
+- name: bgm/ps2md104.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md104.win32.scd
+- name: bgm/ps2md110.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md110.win32.scd
+- name: bgm/ps2md111.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md111.win32.scd
+- name: bgm/ps2md112.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md112.win32.scd
+- name: bgm/ps2md114.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md114.win32.scd
+- name: bgm/ps2md115.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md115.win32.scd
+- name: bgm/ps2md116.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md116.win32.scd
+- name: bgm/ps2md117.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md117.win32.scd
+- name: bgm/ps2md120.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md120.win32.scd
+- name: bgm/ps2md121.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md121.win32.scd
+- name: bgm/ps2md122.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md122.win32.scd
+- name: bgm/ps2md123.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md123.win32.scd
+- name: bgm/ps2md124.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md124.win32.scd
+- name: bgm/ps2md125.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md125.win32.scd
+- name: bgm/ps2md127.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md127.win32.scd
+- name: bgm/ps2md128.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md128.win32.scd
+- name: bgm/ps2md129.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md129.win32.scd
+- name: bgm/ps2md131.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md131.win32.scd
+- name: bgm/ps2md132.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md132.win32.scd
+- name: bgm/ps2md133.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md133.win32.scd
+- name: bgm/ps2md134.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md134.win32.scd
+- name: bgm/ps2md135.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md135.win32.scd
+- name: bgm/ps2md136.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md136.win32.scd
+- name: bgm/ps2md137.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md137.win32.scd
+- name: bgm/ps2md138.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md138.win32.scd
+- name: bgm/ps2md139.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md139.win32.scd
+- name: bgm/ps2md141.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md141.win32.scd
+- name: bgm/ps2md142.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md142.win32.scd
+- name: bgm/ps2md143.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md143.win32.scd
+- name: bgm/ps2md144.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md144.win32.scd
+- name: bgm/ps2md145.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md145.win32.scd
+- name: bgm/ps2md146.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md146.win32.scd
+- name: bgm/ps2md148.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md148.win32.scd
+- name: bgm/ps2md149.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md149.win32.scd
+- name: bgm/ps2md151.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md151.win32.scd
+- name: bgm/ps2md152.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md152.win32.scd
+- name: bgm/ps2md153.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md153.win32.scd
+- name: bgm/ps2md154.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md154.win32.scd
+- name: bgm/ps2md155.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md155.win32.scd
+- name: bgm/ps2md158.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md158.win32.scd
+- name: bgm/ps2md159.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md159.win32.scd
+- name: bgm/ps2md164.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md164.win32.scd
+- name: bgm/ps2md185.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md185.win32.scd
+- name: bgm/ps2md186.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md186.win32.scd
+- name: bgm/ps2md187.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md187.win32.scd
+- name: bgm/ps2md188.win32.scd
+  method: copy
+  source:
+    - name: bgm/ps2md188.win32.scd
+
+- name: raw/obj/V_BB100.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_BB100.mdlx
+- name: raw/obj/V_BB100_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_BB100_GM.mdlx
+- name: raw/obj/V_BB100_TSURU.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_BB100_TSURU.mdlx
+- name: raw/obj/V_CA000.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA000.mdlx
+- name: raw/obj/V_CA050.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA050.mdlx
+- name: raw/obj/V_CA050_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA050_GM.mdlx
+- name: raw/obj/V_EX010.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX010.mdlx
+- name: raw/obj/V_EX010_NM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX010_NM.mdlx
+- name: raw/obj/V_EX050.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX050.mdlx
+- name: raw/obj/V_EX060.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX060.mdlx
+- name: raw/obj/V_EX200.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX200.mdlx
+- name: raw/obj/V_EX200_NM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX200_NM.mdlx
+- name: raw/obj/V_EX500.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500.mdlx
+- name: raw/obj/V_EX500_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_GM.mdlx
+- name: raw/obj/V_EX500_HB.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_HB.mdlx
+- name: raw/obj/V_EX500_HB_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_HB_GM.mdlx
+- name: raw/obj/V_EX500_NM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_NM.mdlx
+- name: raw/obj/V_EX510.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX510.mdlx
+- name: raw/obj/V_EX520.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX520.mdlx
+- name: raw/obj/V_EX520_AL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX520_AL.mdlx
+- name: raw/obj/V_EX530.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX530.mdlx
+- name: raw/obj/V_EX540.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX540.mdlx
+- name: raw/obj/V_EX550.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX550.mdlx
+- name: raw/obj/V_EX560.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX560.mdlx
+- name: raw/obj/V_EX570.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX570.mdlx
+- name: raw/obj/V_EX590.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX590.mdlx
+- name: raw/obj/V_EX620.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX620.mdlx
+- name: raw/obj/V_EX620_AL.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX620_AL.mdlx
+- name: raw/obj/V_EX630.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX630.mdlx
+- name: raw/obj/V_EX640.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX640.mdlx
+- name: raw/obj/V_EX650.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX650.mdlx
+- name: raw/obj/V_EX670.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX670.mdlx
+- name: raw/obj/V_EX690.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX690.mdlx
+- name: raw/obj/V_EX710.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX710.mdlx
+- name: raw/obj/V_EX720.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX720.mdlx
+- name: raw/obj/V_EX730.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX730.mdlx
+- name: raw/obj/V_EX750.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX750.mdlx
+- name: raw/obj/V_EX750_NM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX750_NM.mdlx
+- name: raw/obj/V_EX780.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX780.mdlx
+- name: raw/obj/V_EX790.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790.mdlx
+- name: raw/obj/V_EX790_HALLOWEEN.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790_HALLOWEEN.mdlx
+- name: raw/obj/V_EX790_HALLOWEEN_NM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790_HALLOWEEN_NM.mdlx
+- name: raw/obj/V_LK120.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_LK120.mdlx
+- name: raw/obj/V_LK120_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_LK120_GM.mdlx
+- name: raw/obj/V_MU120.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_MU120.mdlx
+- name: raw/obj/V_MU120_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_MU120_GM.mdlx
+
+- name: raw/obj/V_BB100.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_BB100.a.us
+- name: raw/obj/V_CA000.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA000.a.us
+- name: raw/obj/V_CA050.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA050.a.us
+- name: raw/obj/V_EX010.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX010.a.us
+- name: raw/obj/V_EX010_NM.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX010_NM.a.us
+- name: raw/obj/V_EX050.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX050.a.us
+- name: raw/obj/V_EX060.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX060.a.us
+- name: raw/obj/V_EX200.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX200.a.us
+- name: raw/obj/V_EX200_NM.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX200_NM.a.us
+- name: raw/obj/V_EX500.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500.a.us
+- name: raw/obj/V_EX500_HB.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_HB.a.us
+- name: raw/obj/V_EX500_NM.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_NM.a.us
+- name: raw/obj/V_EX510.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX510.a.us
+- name: raw/obj/V_EX520.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX520.a.us
+- name: raw/obj/V_EX520_AL.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX520_AL.a.us
+- name: raw/obj/V_EX530.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX530.a.us
+- name: raw/obj/V_EX540.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX540.a.us
+- name: raw/obj/V_EX550.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX550.a.us
+- name: raw/obj/V_EX560.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX560.a.us
+- name: raw/obj/V_EX570.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX570.a.us
+- name: raw/obj/V_EX590.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX590.a.us
+- name: raw/obj/V_EX620.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX620.a.us
+- name: raw/obj/V_EX620_AL.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX620_AL.a.us
+- name: raw/obj/V_EX630.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX630.a.us
+- name: raw/obj/V_EX640.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX640.a.us
+- name: raw/obj/V_EX650.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX650.a.us
+- name: raw/obj/V_EX670.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX670.a.us
+- name: raw/obj/V_EX690.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX690.a.us
+- name: raw/obj/V_EX710.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX710.a.us
+- name: raw/obj/V_EX720.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX720.a.us
+- name: raw/obj/V_EX730.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX730.a.us
+- name: raw/obj/V_EX750.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX750.a.us
+- name: raw/obj/V_EX750_NM.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX750_NM.a.us
+- name: raw/obj/V_EX780.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX780.a.us
+- name: raw/obj/V_EX790.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790.a.us
+- name: raw/obj/V_EX790_HALLOWEEN.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790_HALLOWEEN.a.us
+- name: raw/obj/V_EX790_HALLOWEEN_NM.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790_HALLOWEEN_NM.a.us
+- name: raw/obj/V_LK120.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_LK120.a.us
+- name: raw/obj/V_MU120.a.us
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_MU120.a.us
