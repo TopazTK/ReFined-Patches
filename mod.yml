@@ -1,7 +1,9 @@
-title: Kingdom Hearts - Re:Fined
+title: Kingdom Hearts - Re:Fined - TEST
 originalAuthor: TopazTK
 description: An all-purpose QoL and Bugfix for the Kingdom Hearts series.
 assets:
+
+# === System Related Files ===
 
 - name: remastered/msg/jp/fontimage.bar/JP_fontimage_bar2.png
   multi:
@@ -14,61 +16,6 @@ assets:
   method: copy
   source:
   - name: sys/fontimage.png
-
-- name: msg/us/sys.bar
-  method: binarc
-  source:
-  - name: sys
-    type: list
-    method: kh2msg
-    source:
-      - name: msg/sys.yml
-        language: en
-- name: msg/gr/sys.bar
-  method: binarc
-  source:
-  - name: sys
-    type: list
-    method: kh2msg
-    source:
-      - name: msg/sys.yml
-        language: gr
-- name: msg/sp/sys.bar
-  method: binarc
-  source:
-  - name: sys
-    type: list
-    method: kh2msg
-    source:
-      - name: msg/sys.yml
-        language: sp
-- name: msg/it/sys.bar
-  method: binarc
-  source:
-  - name: sys
-    type: list
-    method: kh2msg
-    source:
-      - name: msg/sys.yml
-        language: it
-- name: msg/fr/sys.bar
-  method: binarc
-  source:
-  - name: sys
-    type: list
-    method: kh2msg
-    source:
-      - name: msg/sys.yml
-        language: fr
-- name: msg/jp/sys.bar
-  method: binarc
-  source:
-  - name: sys
-    type: list
-    method: kh2msg
-    source:
-      - name: msg/sys.yml
-        language: jp
 
 - name: msg/us/ca.bar
   method: binarc
@@ -105,342 +52,470 @@ assets:
     source:
     - name: evt/es00.asm
 
+# === The Soundtrack ===
+
+- name: bgm/ps2md082.win32.scd
+  package: kh2_first
+  method: copy
+  source:
+  - name: bgm/ps2md082.win32.scd
+- name: bgm/ps2md118.win32.scd
+  package: kh2_first
+  method: copy
+  source:
+  - name: bgm/ps2md118.win32.scd
+- name: bgm/ps2md119.win32.scd
+  package: kh2_first
+  method: copy
+  source:
+  - name: bgm/ps2md119.win32.scd
 - name: bgm/ps2md050.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md050.win32.scd
+  - name: bgm/ps2md050.win32.scd
 - name: bgm/ps2md051.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md051.win32.scd
+  - name: bgm/ps2md051.win32.scd
 - name: bgm/ps2md052.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md052.win32.scd
+  - name: bgm/ps2md052.win32.scd
 - name: bgm/ps2md053.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md053.win32.scd
+  - name: bgm/ps2md053.win32.scd
 - name: bgm/ps2md054.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md054.win32.scd
+  - name: bgm/ps2md054.win32.scd
 - name: bgm/ps2md055.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md055.win32.scd
+  - name: bgm/ps2md055.win32.scd
 - name: bgm/ps2md059.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md059.win32.scd
+  - name: bgm/ps2md059.win32.scd
 - name: bgm/ps2md060.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md060.win32.scd
+  - name: bgm/ps2md060.win32.scd
 - name: bgm/ps2md061.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md061.win32.scd
+  - name: bgm/ps2md061.win32.scd
 - name: bgm/ps2md062.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md062.win32.scd
+  - name: bgm/ps2md062.win32.scd
 - name: bgm/ps2md063.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md063.win32.scd
+  - name: bgm/ps2md063.win32.scd
 - name: bgm/ps2md064.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md064.win32.scd
+  - name: bgm/ps2md064.win32.scd
 - name: bgm/ps2md065.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md065.win32.scd
+  - name: bgm/ps2md065.win32.scd
 - name: bgm/ps2md066.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md066.win32.scd
+  - name: bgm/ps2md066.win32.scd
 - name: bgm/ps2md067.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md067.win32.scd
+  - name: bgm/ps2md067.win32.scd
 - name: bgm/ps2md068.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md068.win32.scd
+  - name: bgm/ps2md068.win32.scd
 - name: bgm/ps2md069.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md069.win32.scd
+  - name: bgm/ps2md069.win32.scd
 - name: bgm/ps2md081.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md081.win32.scd
+  - name: bgm/ps2md081.win32.scd
 - name: bgm/ps2md084.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md084.win32.scd
+  - name: bgm/ps2md084.win32.scd
 - name: bgm/ps2md085.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md085.win32.scd
+  - name: bgm/ps2md085.win32.scd
 - name: bgm/ps2md086.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md086.win32.scd
+  - name: bgm/ps2md086.win32.scd
 - name: bgm/ps2md087.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md087.win32.scd
+  - name: bgm/ps2md087.win32.scd
 - name: bgm/ps2md088.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md088.win32.scd
+  - name: bgm/ps2md088.win32.scd
 - name: bgm/ps2md089.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md089.win32.scd
+  - name: bgm/ps2md089.win32.scd
 - name: bgm/ps2md090.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md090.win32.scd
+  - name: bgm/ps2md090.win32.scd
 - name: bgm/ps2md091.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md091.win32.scd
+  - name: bgm/ps2md091.win32.scd
 - name: bgm/ps2md092.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md092.win32.scd
+  - name: bgm/ps2md092.win32.scd
 - name: bgm/ps2md093.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md093.win32.scd
+  - name: bgm/ps2md093.win32.scd
 - name: bgm/ps2md094.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md094.win32.scd
+  - name: bgm/ps2md094.win32.scd
 - name: bgm/ps2md095.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md095.win32.scd
+  - name: bgm/ps2md095.win32.scd
 - name: bgm/ps2md096.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md096.win32.scd
+  - name: bgm/ps2md096.win32.scd
 - name: bgm/ps2md097.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md097.win32.scd
+  - name: bgm/ps2md097.win32.scd
 - name: bgm/ps2md098.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md098.win32.scd
+  - name: bgm/ps2md098.win32.scd
 - name: bgm/ps2md099.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md099.win32.scd
+  - name: bgm/ps2md099.win32.scd
 - name: bgm/ps2md100.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md100.win32.scd
+  - name: bgm/ps2md100.win32.scd
 - name: bgm/ps2md101.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md101.win32.scd
+  - name: bgm/ps2md101.win32.scd
 - name: bgm/ps2md102.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md102.win32.scd
+  - name: bgm/ps2md102.win32.scd
 - name: bgm/ps2md103.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md103.win32.scd
+  - name: bgm/ps2md103.win32.scd
 - name: bgm/ps2md104.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md104.win32.scd
+  - name: bgm/ps2md104.win32.scd
 - name: bgm/ps2md110.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md110.win32.scd
+  - name: bgm/ps2md110.win32.scd
 - name: bgm/ps2md111.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md111.win32.scd
+  - name: bgm/ps2md111.win32.scd
 - name: bgm/ps2md112.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md112.win32.scd
+  - name: bgm/ps2md112.win32.scd
 - name: bgm/ps2md114.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md114.win32.scd
+  - name: bgm/ps2md114.win32.scd
 - name: bgm/ps2md115.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md115.win32.scd
+  - name: bgm/ps2md115.win32.scd
 - name: bgm/ps2md116.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md116.win32.scd
+  - name: bgm/ps2md116.win32.scd
 - name: bgm/ps2md117.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md117.win32.scd
+  - name: bgm/ps2md117.win32.scd
 - name: bgm/ps2md120.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md120.win32.scd
+  - name: bgm/ps2md120.win32.scd
 - name: bgm/ps2md121.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md121.win32.scd
+  - name: bgm/ps2md121.win32.scd
 - name: bgm/ps2md122.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md122.win32.scd
+  - name: bgm/ps2md122.win32.scd
 - name: bgm/ps2md123.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md123.win32.scd
+  - name: bgm/ps2md123.win32.scd
 - name: bgm/ps2md124.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md124.win32.scd
+  - name: bgm/ps2md124.win32.scd
 - name: bgm/ps2md125.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md125.win32.scd
+  - name: bgm/ps2md125.win32.scd
 - name: bgm/ps2md127.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md127.win32.scd
+  - name: bgm/ps2md127.win32.scd
 - name: bgm/ps2md128.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md128.win32.scd
+  - name: bgm/ps2md128.win32.scd
 - name: bgm/ps2md129.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md129.win32.scd
+  - name: bgm/ps2md129.win32.scd
 - name: bgm/ps2md131.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md131.win32.scd
+  - name: bgm/ps2md131.win32.scd
 - name: bgm/ps2md132.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md132.win32.scd
+  - name: bgm/ps2md132.win32.scd
 - name: bgm/ps2md133.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md133.win32.scd
+  - name: bgm/ps2md133.win32.scd
 - name: bgm/ps2md134.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md134.win32.scd
+  - name: bgm/ps2md134.win32.scd
 - name: bgm/ps2md135.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md135.win32.scd
+  - name: bgm/ps2md135.win32.scd
 - name: bgm/ps2md136.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md136.win32.scd
+  - name: bgm/ps2md136.win32.scd
 - name: bgm/ps2md137.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md137.win32.scd
+  - name: bgm/ps2md137.win32.scd
 - name: bgm/ps2md138.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md138.win32.scd
+  - name: bgm/ps2md138.win32.scd
 - name: bgm/ps2md139.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md139.win32.scd
+  - name: bgm/ps2md139.win32.scd
 - name: bgm/ps2md141.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md141.win32.scd
+  - name: bgm/ps2md141.win32.scd
 - name: bgm/ps2md142.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md142.win32.scd
+  - name: bgm/ps2md142.win32.scd
 - name: bgm/ps2md143.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md143.win32.scd
+  - name: bgm/ps2md143.win32.scd
 - name: bgm/ps2md144.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md144.win32.scd
+  - name: bgm/ps2md144.win32.scd
 - name: bgm/ps2md145.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md145.win32.scd
+  - name: bgm/ps2md145.win32.scd
 - name: bgm/ps2md146.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md146.win32.scd
+  - name: bgm/ps2md146.win32.scd
 - name: bgm/ps2md148.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md148.win32.scd
+  - name: bgm/ps2md148.win32.scd
 - name: bgm/ps2md149.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md149.win32.scd
+  - name: bgm/ps2md149.win32.scd
 - name: bgm/ps2md151.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md151.win32.scd
+  - name: bgm/ps2md151.win32.scd
 - name: bgm/ps2md152.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md152.win32.scd
+  - name: bgm/ps2md152.win32.scd
 - name: bgm/ps2md153.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md153.win32.scd
+  - name: bgm/ps2md153.win32.scd
 - name: bgm/ps2md154.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md154.win32.scd
+  - name: bgm/ps2md154.win32.scd
 - name: bgm/ps2md155.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md155.win32.scd
+  - name: bgm/ps2md155.win32.scd
 - name: bgm/ps2md158.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md158.win32.scd
+  - name: bgm/ps2md158.win32.scd
 - name: bgm/ps2md159.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md159.win32.scd
+  - name: bgm/ps2md159.win32.scd
 - name: bgm/ps2md164.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md164.win32.scd
+  - name: bgm/ps2md164.win32.scd
 - name: bgm/ps2md185.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md185.win32.scd
+  - name: bgm/ps2md185.win32.scd
 - name: bgm/ps2md186.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md186.win32.scd
+  - name: bgm/ps2md186.win32.scd
 - name: bgm/ps2md187.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md187.win32.scd
+  - name: bgm/ps2md187.win32.scd
 - name: bgm/ps2md188.win32.scd
+  package: kh2_fifth
   method: copy
   source:
-    - name: bgm/ps2md188.win32.scd
+  - name: bgm/ps2md188.win32.scd
+- name: bgm/ps2md189.win32.scd
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: bgm/ps2md189.win32.scd
+- name: bgm/ps2md190.win32.scd
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: bgm/ps2md190.win32.scd
+- name: bgm/ps2md517.win32.scd
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: bgm/ps2md517.win32.scd
+- name: bgm/ps2md521.win32.scd
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: bgm/ps2md521.win32.scd
+- name: bgm/ps2md530.win32.scd
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: bgm/ps2md530.win32.scd
+
+# === Enemy Models ===
 
 - name: raw/obj/V_BB100.mdlx
   package: kh2_fifth
@@ -673,6 +748,8 @@ assets:
   source:
     - name: obj/V_MU120_GM.mdlx
 
+# === Enemy Extras ===
+
 - name: raw/obj/V_BB100.a.us
   package: kh2_fifth
   method: copy
@@ -868,3 +945,15 @@ assets:
   method: copy
   source:
     - name: obj/V_MU120.a.us
+
+# === Language Files ===
+
+- name: msg/us/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en

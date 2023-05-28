@@ -1,3 +1,6 @@
+- id: 0x0AB0
+  en: ※※※※※※※※※※※※※※※※
+
 - id: 0x3787
   en: Encounter Plus
   it: Incontri Plus
@@ -81,16 +84,94 @@
   fr: L'arc de Roxas
 
 - id: 0x4D6C
-  en: Progress has been automatically saved successfully!
-  it: Il progresso è stato automaticamente salvato con successo!
+  en: Your progress is safe, kupo!
 
 - id: 0x4D6D
-  en: Progress could not be saved automatically! Please be sure to save your game manually!
-  it: Il progresso non è stato salvato automaticamente con successo! Si raccomanda di salvare manualmente!
+  en: Could not save your progress, kupo! Please save it manually!
 
-- id: 0x4D6E
-  en: "{:width 75}Press {:icon dynamic-circle} to abort!"
-  it: "{:width 75}Premi {:icon dynamic-circle} per cancellare!"
+- id: 0x01BA
+  en: "Press{:icon dynamic-cross} to abort!"
+  it: "Premi{:icon dynamic-cross} per cancellare!"
+
+- id: 0x01BB
+  en: "Sequence aborted!"
+
+- id: 0x371A
+  en: "{:color #F080F080}Vibration"
+
+- id: 0x372C
+  en: "{:color #FFFF0080}Enable{:reset} or {:color #FFFF0080}disable{:reset} the controller's vibration.
+    
+    {:color #FFFF0080}Changes take effect immediately.{:reset}
+    
+    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
+
+- id: 0x372E
+  en: ""
+
+- id: 0x4D6F
+  en: "{:color #F080F080}Audio Language"
+
+- id: 0x4D70
+  en: "{:color #F080F080}Background Music"
+
+- id: 0x4D71
+  en: "{:color #F080F080}Heartless Attire"
+
+- id: 0x4D72
+  en: "{:color #F080F080}Control Prompts"
+
+- id: 0x4D73
+  en: "Swap between {:color #FFFF0080}English{:reset} and {:color #FFFF0080}Japanese{:reset} dialogue.
+    
+    {:color #FFFF0080}Switch worlds for the changes to take effect.{:reset}
+    
+    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
+
+- id: 0x4D74
+  en: "Swap between {:color #FFFF0080}Vanilla{:reset} and {:color #FFFF0080}Remastered{:reset} music.
+    
+    {:color #FFFF0080}Switch worlds for the changes to take effect.{:reset}
+    
+    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
+
+- id: 0x4D75
+  en: "Swap between {:color #FFFF0080}Classic{:reset} and {:color #FFFF0080}Special{:reset} Heartless.
+    
+    {:color #FFFF0080}Switch rooms for the changes to take effect.{:reset}
+    
+    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
+
+- id: 0x4D76
+  en: "Swap between {:color #FFFF0080}Controller{:reset} and {:color #FFFF0080}Automatic{:reset} prompts.
+    
+    {:color #FFFF0080}Changes take effect immediately.{:reset}
+    
+    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
+
+- id: 0x01BC
+  en: "English"
+
+- id: 0x01BD
+  en: "Japanese"
+
+- id: 0x01BE
+  en: "Vanilla"
+
+- id: 0x01BF
+  en: "Remastered"
+
+- id: 0x01C0
+  en: "Classic"
+
+- id: 0x01C1
+  en: "Special"
+
+- id: 0x01C2
+  en: "Controller"
+
+- id: 0x01C3
+  en: "Automatic"
 
 - id: 0x4E83
   en: Dodge Roll LV1
