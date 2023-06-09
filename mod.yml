@@ -5,45 +5,19 @@ assets:
  
 # === System Related Files ===
 
-- name: menu/us/camp.2ld
   platform: pc
-  method: copy
-  source:
-  - name: menu/us/camp.2ld
-
-- name: menu/us/save.2ld
-  platform: pc
-  method: copy
-  source:
-  - name: menu/us/save.2ld
-
-- name: menu/us/jmemo.2ld
-  platform: pc
-  method: copy
-  source:
-  - name: menu/us/jmemo.2ld
-
-- name: menu/us/title.2ld
-  platform: pc
-  method: copy
-  source:
-  - name: menu/us/title.2ld
-
 - name: itempic/item-360.imd
-  platform: pc
   method: copy
   source:
   - name: itempic/item-360.imd
 
 - name: remastered/itempic/item-360.imd/-0.dds
-  platform: pc
   method: copy
   source:
   - name: remastered/itempic/item-360.imd/-0.dds
 
 - name: remastered/field2d/us/zz0command.2dd/US_zz0command_2dd0.png
   package: kh2_fifth
-  platform: pc
   method: copy
   source:
   - name: remastered/field2d/us/zz0command.2dd/US_zz0command_2dd0.png
@@ -55,7 +29,6 @@ assets:
   - name: remastered/msg/gr/fontimage.bar/GR_fontimage_bar2.png
   - name: remastered/msg/it/fontimage.bar/IT_fontimage_bar2.png
   - name: remastered/msg/sp/fontimage.bar/SP_fontimage_bar2.png
-  platform: pc
   method: copy
   source:
   - name: sys/fontimage.png
@@ -102611,3 +102584,25 @@ assets:
   method: copy
   source:
     - name: voice/us/battle/tt0_roxas.win32.scd
+
+- name: menu/us/camp.2ld
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: menu/us/camp.2ld
+
+- name: menu/us/save.2ld
+  method: copy
+  source:
+  - name: menu/us/save.2ld
+
+- name: menu/us/jmemo.2ld
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: menu/us/jmemo.2ld
+
+- name: menu/us/title.2ld
+  method: copy
+  source:
+  - name: menu/us/title.2ld
