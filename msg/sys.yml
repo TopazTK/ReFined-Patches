@@ -102,7 +102,6 @@
 - id: 0x372C
   en: "{:color #FFFF0080}Enable{:reset} or {:color #FFFF0080}disable{:reset} the controller's vibration.
     
-    {:color #FFFF0080}Changes take effect immediately.{:reset}
     
     {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
 
@@ -124,28 +123,24 @@
 - id: 0x4D73
   en: "Swap between {:color #FFFF0080}English{:reset} and {:color #FFFF0080}Japanese{:reset} dialogue.
     
-    {:color #FFFF0080}Switch worlds for the changes to take effect.{:reset}
     
     {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
 
 - id: 0x4D74
   en: "Swap between {:color #FFFF0080}Vanilla{:reset} and {:color #FFFF0080}Remastered{:reset} music.
-    
-    {:color #FFFF0080}Switch worlds for the changes to take effect.{:reset}
-    
+        
+        
     {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
 
 - id: 0x4D75
   en: "Swap between {:color #FFFF0080}Classic{:reset} and {:color #FFFF0080}Special{:reset} Heartless.
     
-    {:color #FFFF0080}Switch rooms for the changes to take effect.{:reset}
     
     {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
 
 - id: 0x4D76
   en: "Swap between {:color #FFFF0080}Controller{:reset} and {:color #FFFF0080}Automatic{:reset} prompts.
     
-    {:color #FFFF0080}Changes take effect immediately.{:reset}
     
     {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
 
