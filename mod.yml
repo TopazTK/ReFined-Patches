@@ -79,12 +79,15 @@ assets:
   source:
   - name: libretto/libretto-ca.bar
 
-- name: item 
-  type: list
-  method: listpatch
+- name: 03system.bin
+  method: binarc
   source:
-  - name: sys/item.yml
-    type: item
+  - name: item 
+    type: list
+    method: listpatch
+    source:
+    - name: sys/item.yml
+      type: item
 
 - name: ard/es00.ard
   multi:
