@@ -1,5 +1,136 @@
+# === System Text === #
+
 - id: 0x0AB0
   en: ※※※※※※※※※※※※※※※※
+
+- id: 0x4D6C
+  en: Your progress is safe, kupo!
+
+- id: 0x4D6D
+  en: Could not save your progress, kupo! Please save it manually!
+
+- id: 0x01BA
+  en: "Press{:icon dynamic-cross} to abort!"
+  it: "Premi{:icon dynamic-cross} per cancellare!"
+
+- id: 0x01BB
+  en: "Sequence aborted!"
+
+# === Item Text === #
+
+- id: 0x0649
+  en: "Using the Keyblade's true power,
+    
+    use the Drive Command to change
+    
+    into Final Form."
+    
+- id: 0x064A
+  en: Anti Form
+
+- id: 0x064B
+  en: "Using the darkness in Sora's heart,
+    
+    use the Drive Command to change
+    
+    into Anti Form."
+
+# === Configuration Text === #
+
+- id: 0x01BC
+  en: "Autosave"
+
+- id: 0x01BD
+  en: "Audio Language"
+
+- id: 0x01BE
+  en: "Background Music"
+
+- id: 0x01BF
+  en: "Heartless Palette"
+
+- id: 0x01C0
+  en: "Controller Prompts"
+
+- id: 0x01C1
+  en: "Informative"
+
+- id: 0x01C2
+  en: "Silent"
+
+- id: 0x01C3
+  en: "Disabled"
+
+- id: 0x01C4
+  en: "English"
+
+- id: 0x01C5
+  en: "Japanese"
+
+- id: 0x01C6
+  en: "MIDI"
+  
+- id: 0x01C7
+  en: "Remastered"
+
+- id: 0x01C8
+  en: "Classic"
+  
+- id: 0x01C9
+  en: "Special"
+
+- id: 0x01CA
+  en: "Controller"
+
+- id: 0x01CB
+  en: "Keyboard"
+
+- id: 0x01CC
+  en: "Automatic"
+
+- id: 0x01CD
+  en: "Autosaving will be done with an indicator."
+
+- id: 0x01CE
+  en: "Autosaving will be done silently."
+
+- id: 0x01CF
+  en: "Autosaving will be disabled."
+
+- id: 0x01D0
+  en: "The audio will be in English."
+
+- id: 0x01D1
+  en: "The audio will be in Japanese."
+    
+- id: 0x01D2
+  en: "The background music will be MIDI Synthesized."
+  
+- id: 0x01D3
+  en: "The background music will be remastered."
+  
+- id: 0x01D4
+  en: "The Heartless will use the Classic Palette."
+  
+- id: 0x01D5
+  en: "The Heartless will use the Special Palette."
+  
+- id: 0x01D6
+  en: "The game will display the Controller Prompts."
+  
+- id: 0x01D7
+  en: "The game will display the Keyboard Prompts."
+  
+- id: 0x01D8
+  en: "The game will adjust the prompts automatically."
+
+- id: 0x01D9
+  en: "※※※※※※※※※※※※※※※※"
+
+- id: 0x01DA
+  en: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+
+# === Ability Text === #
 
 - id: 0x3787
   en: Encounter Plus
@@ -26,147 +157,6 @@
   
     ainsi que les ennemis plus rares."
   jp: フィールドを移動している時、ハートレスに出会いやすくなります
-
-- id: 0x4337
-  en: Play Roxas' Story?
-  it: Gioca la storia di Roxas?
-  sp: ¿Quieres jugar la historia de Roxas?
-  gr: Möchtest du Roxas' Geschichte spielen?
-  fr: Lancer l'arc de Roxas ?
-
-- id: 0x4338
-  en: YES
-  it: Sì
-  sp: Sí
-  gr: Ja
-  fr: Oui
-
-- id: 0x4339
-  en: NO
-  it: No
-  sp: No
-  gr: Nein
-  fr: Non
-
-- id: 0x433A 
-  en: Play through Roxas' Story normally.
-  it: Gioca la storia di Roxas normalmente.
-  sp: Juega la historia completa.
-  gr: Spiele ganz normal durch Roxas' Geschichte.
-  fr: Jouer l'arc de Roxas normalement.
-
-- id: 0x433B
-  en: "                Skip Roxas' Story entirely.
-  
-    {:color #FFFF0080}(You will miss important story elements if you do!)"
-
-  it: "        Salta la storia di Roxas completamente.
-    
-    {:color #FFFF0080}(Perderai elementi della storia se decidi di saltarla!)"
-
-  sp: "       Saltar historia de Roxas.
-    
-    {:color #FFFF0080}(¡Te perderás elementos importantes
-    
-          de la historia si lo haces!)"
-  gr: "           Überspringe Roxas' Geschichte komplett.
-  
-    {:color #FFFF0080}(Dadurch werden wichtige Story-Elemente übersprungen!)"
-  fr: "                       Passer l'arc de Roxas.
-    
-    {:color #FFFF0080}(Vous passerez à coté d'éléments importants de l'histoire !)"
-
-- id: 0x4381
-  en: Roxas' Story
-  it: La storia di Roxas
-  sp: Historia de Roxas
-  gr: Roxas' Geschichte
-  fr: L'arc de Roxas
-
-- id: 0x4D6C
-  en: Your progress is safe, kupo!
-
-- id: 0x4D6D
-  en: Could not save your progress, kupo! Please save it manually!
-
-- id: 0x01BA
-  en: "Press{:icon dynamic-cross} to abort!"
-  it: "Premi{:icon dynamic-cross} per cancellare!"
-
-- id: 0x01BB
-  en: "Sequence aborted!"
-
-- id: 0x371A
-  en: "{:color #F080F080}Vibration"
-
-- id: 0x372C
-  en: "{:color #FFFF0080}Enable{:reset} or {:color #FFFF0080}disable{:reset} the controller's vibration.
-    
-    
-    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
-
-- id: 0x372E
-  en: ""
-
-- id: 0x4D6F
-  en: "{:color #F080F080}Audio Language"
-
-- id: 0x4D70
-  en: "{:color #F080F080}Background Music"
-
-- id: 0x4D71
-  en: "{:color #F080F080}Heartless Attire"
-
-- id: 0x4D72
-  en: "{:color #F080F080}Control Prompts"
-
-- id: 0x4D73
-  en: "Swap between {:color #FFFF0080}English{:reset} and {:color #FFFF0080}Japanese{:reset} dialogue.
-    
-    
-    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
-
-- id: 0x4D74
-  en: "Swap between {:color #FFFF0080}Vanilla{:reset} and {:color #FFFF0080}Remastered{:reset} music.
-        
-        
-    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
-
-- id: 0x4D75
-  en: "Swap between {:color #FFFF0080}Classic{:reset} and {:color #FFFF0080}Special{:reset} Heartless.
-    
-    
-    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
-
-- id: 0x4D76
-  en: "Swap between {:color #FFFF0080}Controller{:reset} and {:color #FFFF0080}Automatic{:reset} prompts.
-    
-    
-    {:color #F080F080}Press {:icon dynamic-l2} / {:icon dynamic-r2} to swap between configs.{:reset}"
-
-- id: 0x01BC
-  en: "English"
-
-- id: 0x01BD
-  en: "Japanese"
-
-- id: 0x01BE
-  en: "Vanilla"
-
-- id: 0x01BF
-  en: "Remastered"
-
-- id: 0x01C0
-  en: "Classic"
-
-- id: 0x01C1
-  en: "Special"
-
-- id: 0x01C2
-  en: "Controller"
-
-- id: 0x01C3
-  en: "Automatic"
 
 - id: 0x4E83
   en: Dodge Roll LV1
