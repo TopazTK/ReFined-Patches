@@ -1,13 +1,13 @@
 # === System Text === #
 
 - id: 0x0AB0
-  en: ※※※※※※※※※※※※※※※※
+  en: "※※※※※※※※※※※※※※※※"
 
 - id: 0x4D6C
-  en: Your progress is safe, kupo!
+  en: "Your progress is safe, kupo!"
 
 - id: 0x4D6D
-  en: Could not save your progress, kupo! Please save it manually!
+  en: "Could not save your progress, kupo! Please save it manually!"
 
 - id: 0x01BA
   en: "Press{:icon dynamic-cross} to abort!"
@@ -130,57 +130,70 @@
 - id: 0x01DA
   en: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
 
+- id: 0x4D6E
+  en: "Achievements"
+
+- id: 0x4D6F
+  en: "Enable the Achievement Engine."
+
+- id: 0x4D70
+  en: "Disable the Achievement Engine."
+
 # === Ability Text === #
 
 - id: 0x3787
-  en: Encounter Plus
-  it: Incontri Plus
-  sp: Más Encuentros
-  gr: Gefecht+
-  fr: Audace
-  jp: エンカウントアップ
+  en: "Encounter Plus"
 
 - id: 0x3788
   en: "Increases the rate in which enemies appear, 
   
     including rarer enemies."
-  it: "Incrementa il numero di nemici incontrati, inclusi i nemici
-
-    più rari."
-  sp: "Aumenta las probabilidades de encontrarse con enemigos,
-
-    también aquellos que son raros."
-  gr: "Erhöht die Wahrscheinlichkeit, dass Gegner, inklusive
-  
-    seltenerer Gegner, erscheinen."
-  fr: "Augmente les chances de voir apparaître des ennemis,
-  
-    ainsi que les ennemis plus rares."
-  jp: フィールドを移動している時、ハートレスに出会いやすくなります
 
 - id: 0x4E83
-  en: Dodge Roll LV1
+  en: "Dodge Roll LV1"
 
 - id: 0x4E85
-  en: Dodge Roll LV2
+  en: "Dodge Roll LV2"
 
 - id: 0x4E87
-  en: Dodge Roll LV3
+  en: "Dodge Roll LV3"
 
 - id: 0x4E8D
-  en: Sonic Blade
+  en: "Sonic Blade"
 
 - id: 0x4EFE
-  en: Sonic Blade
+  en: "Sonic Blade"
 
 - id: 0x4E8F
-  en: Ars Arcanum
+  en: "Ars Arcanum"
 
 - id: 0x4F01
-  en: Ars Arcanum
+  en: "Ars Arcanum"
 
 - id: 0x4E93
-  en: Ragnarok
+  en: "Ragnarok"
 
 - id: 0x4EF6
-  en: Ragnarok
+  en: "Ragnarok"
+
+# === New Game Text === #
+
+- id: 0x4337
+  en: "Play Roxas' Story?"
+
+- id: 0x4338
+  en: "YES"
+
+- id: 0x4339
+  en: "NO"
+
+- id: 0x433A 
+  en: "Play through Roxas' Story normally."
+
+- id: 0x433B
+  en: "                Skip Roxas' Story entirely.
+  
+    {:color #FFFF0080}(You will miss important story elements if you do!)"
+
+- id: 0x4381
+  en: "Roxas' Story"
