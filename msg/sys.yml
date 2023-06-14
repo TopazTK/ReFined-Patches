@@ -6,11 +6,11 @@
 
 - id: 0x4D6C
   en: "Your progress is safe, kupo!"
-  gr: "Dein Fortschritt ist sicher, kupo!"
+  gr: "Dein Fortschritt ist gespeichert, kupo!"
 
 - id: 0x4D6D
   en: "Could not save your progress, kupo! Please save it manually!"
-  gr: "Konnte keinen Fortschritt sichern, kupo! Bitte sichere ihn manuell!"
+  gr: "Konnte deinen Fortschritt nicht speichern, kupo! Bitte speichere ihn manuell!"
 
 - id: 0x01BA
   en: "Press{:icon dynamic-cross} to abort!"
@@ -19,7 +19,7 @@
 
 - id: 0x01BB
   en: "Sequence aborted!"
-  gr: "Neustart abgebrochen!"
+  gr: "Sequenz abgebrochen!"
 
 # === Item Text === #
 
@@ -29,9 +29,9 @@
     use the Drive Command to change
     
     into Final Form."
-  gr: "Mit der wahren Kraft des Schlüsselschwerts,
+  gr: "Mit der wahren Macht des Schlüsselschwertes,
     
-    nutze das Drive Kommando um
+    nutze das Drive-Kommando, um
     
     in die Über-Form zu wechseln."
     
@@ -47,7 +47,7 @@
     into Anti Form."
   en: "Mit der Dunkelheit in Soras Herzen,
     
-    nutze das Drive Kommando um
+    nutze das Drive-Kommando, um
     
     in die Anti-Form zu wechseln."
 
@@ -55,7 +55,7 @@
 
 - id: 0x01BC
   en: "Autosave"
-  gr: "Autosave"
+  gr: "Auto-Speichern"
 
 - id: 0x01BD
   en: "Audio Language"
@@ -67,7 +67,7 @@
 
 - id: 0x01BF
   en: "Heartless Palette"
-  gr: "Herzlosen-Look"
+  gr: "Herzlosen-Palette"
 
 - id: 0x01C0
   en: "Controller Prompts"
@@ -79,7 +79,7 @@
 
 - id: 0x01C2
   en: "Silent"
-  gr: "Unterdrückt"
+  gr: "Unbemerkt"
 
 - id: 0x01C3
   en: "Disabled"
@@ -123,17 +123,15 @@
 
 - id: 0x01CD
   en: "Autosaving will be done with an indicator."
-  gr: "Die automatische Speicherung erfolgt 
-
-     mit einem Indikator."
+  gr: "Auto-Speichern erfolgt mit einem Indikator."
 
 - id: 0x01CE
   en: "Autosaving will be done silently."
-  gr: "Die automatische Speicherung erfolgt unterdrückt."
+  gr: "Auto-Speichern erfolgt unbemerkt."
 
 - id: 0x01CF
   en: "Autosaving will be disabled."
-  gr: "Die automatische Speicherung ist deaktiviert."
+  gr: "Auto-Speichern ist deaktiviert."
 
 - id: 0x01D0
   en: "The audio will be in English."
@@ -145,19 +143,19 @@
     
 - id: 0x01D2
   en: "The background music will be MIDI Synthesized."
-  gr: "Die Hintergrundmusik wird das Original abspielen."
+  gr: "Die Hintergrundmusik wird durch MIDI abgespielt."
   
 - id: 0x01D3
   en: "The background music will be remastered."
-  gr: "Die Hintergrundmusik wird die Neuauflage abspielen."
+  gr: "Die Hintergrundmusik wird durch die Neuauflage abgespielt."
   
 - id: 0x01D4
   en: "The Heartless will use the Classic Palette."
-  gr: "Die Herzlosen werden ihren Klassichen Look nutzen."
+  gr: "Die Herzlosen nehmen die klassischen Farben an."
   
 - id: 0x01D5
   en: "The Heartless will use the Special Palette."
-  gr: "Die Herzlosen werden ihren Speziellen Look nutzen."
+  gr: "Die Herzlosen nehmen die speziellen Farben an."
   
 - id: 0x01D6
   en: "The game will display the Controller Prompts."
@@ -185,17 +183,17 @@
 
 - id: 0x4D6F
   en: "Enable the Achievement Engine."
-  gr: "Aktiviere das Erfolgssystem."
+  gr: "Aktiviere die Erfolge-Engine."
   
 - id: 0x4D70
   en: "Disable the Achievement Engine."
-  gr: "Deaktiviere das Erfolgssystem."
+  gr: "Deaktiviere die Erfolge-Engine."
 
 # === Ability Text === #
 
 - id: 0x3787
   en: "Encounter Plus"
-  gr: "Gefecht+"
+  gr: "Gefecht +"
 
 - id: 0x3788
   en: "Increases the rate in which enemies appear, 
@@ -265,7 +263,7 @@
     {:color #FFFF0080}(You will miss important story elements if you do!)"
   gr: "                Überspringe Roxas' Geschichte komplett.
   
-    {:color #FFFF0080}(Du wirst wichtige Geschichtselemente verpassen wenn du es überspringst!)"
+    {:color #FFFF0080}(Du wirst wichtige Elemente der Geschichte verpassen, wenn du es überspringst!)"
 
 - id: 0x4381
   en: "Roxas' Story"
