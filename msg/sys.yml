@@ -2,19 +2,24 @@
 
 - id: 0x0AB0
   en: "※※※※※※※※※※※※※※※※"
+  gr: "※※※※※※※※※※※※※※※※"
 
 - id: 0x4D6C
   en: "Your progress is safe, kupo!"
+  gr: "Dein Fortschritt ist gespeichert, kupo!"
 
 - id: 0x4D6D
   en: "Could not save your progress, kupo! Please save it manually!"
+  gr: "Konnte deinen Fortschritt nicht speichern, kupo! Bitte speichere ihn manuell!"
 
 - id: 0x01BA
   en: "Press{:icon dynamic-cross} to abort!"
   it: "Premi{:icon dynamic-cross} per cancellare!"
+  gr: "Drücke {:icon dynamic-circle} zum abbrechen!"
 
 - id: 0x01BB
   en: "Sequence aborted!"
+  gr: "Sequenz abgebrochen!"
 
 # === Item Text === #
 
@@ -24,9 +29,15 @@
     use the Drive Command to change
     
     into Final Form."
+  gr: "Mit der wahren Macht des Schlüsselschwertes,
+    
+    nutze das Drive-Kommando, um
+    
+    in die Über-Form zu wechseln."
     
 - id: 0x064A
   en: "Anti Form"
+  gr: "Anti-Form"
 
 - id: 0x064B
   en: "Using the darkness in Sora's heart,
@@ -34,166 +45,226 @@
     use the Drive Command to change
     
     into Anti Form."
+  en: "Mit der Dunkelheit in Soras Herzen,
+    
+    nutze das Drive-Kommando, um
+    
+    in die Anti-Form zu wechseln."
 
 # === Configuration Text === #
 
 - id: 0x01BC
   en: "Autosave"
+  gr: "Auto-Speichern"
 
 - id: 0x01BD
   en: "Audio Language"
+  gr: "Sprachausgabe"
 
 - id: 0x01BE
   en: "Background Music"
+  gr: "Hintergrundmusik"
 
 - id: 0x01BF
   en: "Heartless Palette"
+  gr: "Herzlosen-Palette"
 
 - id: 0x01C0
   en: "Controller Prompts"
+  gr: "Steuerungseingaben"
 
 - id: 0x01C1
   en: "Informative"
+  gr: "Informativ"
 
 - id: 0x01C2
   en: "Silent"
+  gr: "Unbemerkt"
 
 - id: 0x01C3
   en: "Disabled"
+  gr: "Deaktiviert"
 
 - id: 0x01C4
   en: "English"
+  gr: "Englisch"
 
 - id: 0x01C5
   en: "Japanese"
+  gr: "Japanisch"
 
 - id: 0x01C6
   en: "MIDI"
+  gr: "Original"
   
 - id: 0x01C7
   en: "Remastered"
+  gr: "Neuauflage"
 
 - id: 0x01C8
   en: "Classic"
+  gr: "Klassisch"
   
 - id: 0x01C9
   en: "Special"
+  gr: "Speziell"
 
 - id: 0x01CA
   en: "Controller"
+  gr: "Controller"
 
 - id: 0x01CB
   en: "Keyboard"
+  gr: "Tastatur"
 
 - id: 0x01CC
   en: "Automatic"
+  gr: "Automatisch"
 
 - id: 0x01CD
   en: "Autosaving will be done with an indicator."
+  gr: "Auto-Speichern erfolgt mit einem Indikator."
 
 - id: 0x01CE
   en: "Autosaving will be done silently."
+  gr: "Auto-Speichern erfolgt unbemerkt."
 
 - id: 0x01CF
   en: "Autosaving will be disabled."
+  gr: "Auto-Speichern ist deaktiviert."
 
 - id: 0x01D0
   en: "The audio will be in English."
+  gr: "Die Sprachausgabe wird in Englisch sein."
 
 - id: 0x01D1
   en: "The audio will be in Japanese."
+  gr: "Die Sprachausgabe wird in Japanisch sein."
     
 - id: 0x01D2
   en: "The background music will be MIDI Synthesized."
+  gr: "Die Hintergrundmusik wird durch MIDI abgespielt."
   
 - id: 0x01D3
   en: "The background music will be remastered."
+  gr: "Die Hintergrundmusik wird durch die Neuauflage abgespielt."
   
 - id: 0x01D4
   en: "The Heartless will use the Classic Palette."
+  gr: "Die Herzlosen nehmen die klassischen Farben an."
   
 - id: 0x01D5
   en: "The Heartless will use the Special Palette."
+  gr: "Die Herzlosen nehmen die speziellen Farben an."
   
 - id: 0x01D6
   en: "The game will display the Controller Prompts."
+  gr: "Das Spiel wird die Controllereingaben zeigen."
   
 - id: 0x01D7
   en: "The game will display the Keyboard Prompts."
+  gr: "Das Spiel wird die Tastatureingaben zeigen."
   
 - id: 0x01D8
   en: "The game will adjust the prompts automatically."
+  gr: "Das Spiel wird die Eingaben automatisch anpassen."
 
 - id: 0x01D9
   en: "※※※※※※※※※※※※※※※※"
+  gr: "※※※※※※※※※※※※※※※※"
 
 - id: 0x01DA
   en: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+  gr: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
 
 - id: 0x4D6E
   en: "Achievements"
+  gr: "Erfolge"
 
 - id: 0x4D6F
   en: "Enable the Achievement Engine."
-
+  gr: "Aktiviere die Erfolge-Engine."
+  
 - id: 0x4D70
   en: "Disable the Achievement Engine."
+  gr: "Deaktiviere die Erfolge-Engine."
 
 # === Ability Text === #
 
 - id: 0x3787
   en: "Encounter Plus"
+  gr: "Gefecht +"
 
 - id: 0x3788
   en: "Increases the rate in which enemies appear, 
   
     including rarer enemies."
+  gr: "Erhöht die Wahrscheinlichkeit, dass Gegner, inklusive
+  
+    seltenerer Gegner, erscheinen."
 
 - id: 0x4E83
   en: "Dodge Roll LV1"
+  gr: "Ausweichrolle LV1"
 
 - id: 0x4E85
   en: "Dodge Roll LV2"
+  gr: "Ausweichrolle LV2"
 
 - id: 0x4E87
   en: "Dodge Roll LV3"
+  gr: "Ausweichrolle LV3"
 
 - id: 0x4E8D
   en: "Sonic Blade"
+  gr: "Limitklatsche"
 
 - id: 0x4EFE
   en: "Sonic Blade"
+  gr: "Limitklatsche"
 
 - id: 0x4E8F
   en: "Ars Arcanum"
+  gr: "Amok-Arkana"
 
 - id: 0x4F01
   en: "Ars Arcanum"
+  gr: "Amok-Arkana"
 
 - id: 0x4E93
   en: "Ragnarok"
+  gr: "Ragnarök"
 
 - id: 0x4EF6
   en: "Ragnarok"
+  gr: "Ragnarök"
 
 # === New Game Text === #
 
 - id: 0x4337
   en: "Play Roxas' Story?"
+  gr: "Roxas' Geschichte spielen?"
 
 - id: 0x4338
   en: "YES"
+  gr: "JA"
 
 - id: 0x4339
   en: "NO"
+  gr: "NEIN"
 
 - id: 0x433A 
   en: "Play through Roxas' Story normally."
+  gr: "Normal durch Roxas' Geschichte spielen."
 
 - id: 0x433B
   en: "                Skip Roxas' Story entirely.
   
     {:color #FFFF0080}(You will miss important story elements if you do!)"
+  gr: "                Überspringe Roxas' Geschichte komplett.
+  
+    {:color #FFFF0080}(Du wirst wichtige Elemente der Geschichte verpassen, wenn du es überspringst!)"
 
 - id: 0x4381
   en: "Roxas' Story"
+  gr: "Roxas' Geschichte"
