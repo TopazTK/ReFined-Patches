@@ -77,7 +77,7 @@
     usa el Comando de Fusión para cambiar
     
     a la Anti-Forma."
-  fr: "En utilisant le ténèbres du cœur de Sora,
+  fr: "En utilisant les ténèbres du cœur de Sora,
     
     utilisez le menu de Fusion pour utiliser
     
@@ -209,13 +209,13 @@
   en: "The audio will be in English."
   gr: "Die Sprachausgabe wird in Englisch sein."
   sp: "El audio estará en Inglés."
-  fr: "Le son sera en Anglais."
+  fr: "Le doublage sera en Anglais."
 
 - id: 0x01D1
   en: "The audio will be in Japanese."
   gr: "Die Sprachausgabe wird in Japanisch sein."
   sp: "El audio estará en Japonés."
-  fr: "Le son sera en Japonais."
+  fr: "Le doublage sera en Japonais."
     
 - id: 0x01D2
   en: "The background music will be MIDI Synthesized."
@@ -295,7 +295,7 @@
   en: "Encounter Plus"
   gr: "Gefecht +"
   sp: "Más Encuentros"
-  fr: "Rencontres +"
+  fr: "Rencontre +"
 
 - id: 0x3788
   en: "Increases the rate in which enemies appear, 
