@@ -4,16 +4,19 @@
   en: "※※※※※※※※※※※※※※※※"
   gr: "※※※※※※※※※※※※※※※※"
   sp: "※※※※※※※※※※※※※※※※"
+  it: "※※※※※※※※※※※※※※※※"
 
 - id: 0x4D6C
   en: "Your progress is safe, kupo!"
   gr: "Dein Fortschritt ist gespeichert, kupo!"
   sp: "¡Tu progreso está a salvo, kupó!"
+  it: "Il tuo progresso è stato salvato, kupo!"
 
 - id: 0x4D6D
   en: "Could not save your progress, kupo! Please save it manually!"
   gr: "Konnte deinen Fortschritt nicht speichern, kupo! Bitte speichere ihn manuell!"
   sp: "¡No se pudo guardar tu progreso, kupó! ¡Por favor, guarda partida manualmente!"
+  it: "Non è stato possibile salvare il tuo progresso, kupo! Per favore salva manualmente!"
 
 - id: 0x01BA
   en: "Press{:icon dynamic-cross} to abort!"
@@ -25,6 +28,7 @@
   en: "Sequence aborted!"
   gr: "Sequenz abgebrochen!"
   sp: "¡Secuencia abortada!"
+  it: "Sequenza abortita!"
 
 # === Item Text === #
 
@@ -44,11 +48,17 @@
     usa el Comando de Fusión para cambiar
     
     a la Forma Final."
+    it: "Usando il vero potere del Keyblade,
+    
+    usa il Comando Drive per cambiare
+    
+    in Forma Finale."
     
 - id: 0x064A
   en: "Anti Form"
   gr: "Anti-Form"
   sp: "Anti-Forma"
+  it: "Anti-Forma"
 
 - id: 0x064B
   en: "Using the darkness in Sora's heart,
@@ -66,6 +76,11 @@
     usa el Comando de Fusión para cambiar
     
     a la Anti-Forma."
+  it: "Usando l'oscurità nel cuore di Sora,
+    
+    usa il Comando Drive per cambiare
+    
+    in Anti-Forma."
 
 # === Configuration Text === #
 
@@ -73,171 +88,206 @@
   en: "Autosave"
   gr: "Auto-Speichern"
   sp: "Autoguardado"
+  it: "Autosalvataggio"
 
 - id: 0x01BD
   en: "Audio Language"
   gr: "Sprachausgabe"
   sp: "Idioma del Audio"
+  it: "Linguaggio Audio"
 
 - id: 0x01BE
   en: "Background Music"
   gr: "Hintergrundmusik"
   sp: "Música de Ambiente"
+  it: "Musica di Sottofondo"
 
 - id: 0x01BF
   en: "Heartless Palette"
   gr: "Herzlosen-Palette"
   sp: "Aspecto de los Sincorazón"
+  it: "Aspetto degli Heartless"
 
 - id: 0x01C0
   en: "Controller Prompts"
   gr: "Steuerungseingaben"
   sp: "Indicaciones de los Controles"
+  it: "Istruzioni del Controller"
 
 - id: 0x01C1
   en: "Informative"
   gr: "Informativ"
   sp: "Informativo"
+  it: "Informativo"
 
 - id: 0x01C2
   en: "Silent"
   gr: "Unbemerkt"
   sp: "Silencioso"
+  it: "Silenzioso"
 
 - id: 0x01C3
   en: "Disabled"
   gr: "Deaktiviert"
   sp: "Desactivado"
+  it: "Disattivato"
 
 - id: 0x01C4
   en: "English"
   gr: "Englisch"
   sp: "Inglés"
+  it: "Inglese"
 
 - id: 0x01C5
   en: "Japanese"
   gr: "Japanisch"
   sp: "Japonés"
+  it: "Giapponese"
 
 - id: 0x01C6
   en: "MIDI"
   gr: "Original"
   sp: "Original"
+  it: "Originale"
   
 - id: 0x01C7
   en: "Remastered"
   gr: "Neuauflage"
   sp: "Remasterizada"
+  it: "Rimasterizzata"
 
 - id: 0x01C8
   en: "Classic"
   gr: "Klassisch"
   sp: "Clásico"
+  it: "Classico"
   
 - id: 0x01C9
   en: "Special"
   gr: "Speziell"
   sp: "Especial"
+  it: "Speciale"
 
 - id: 0x01CA
   en: "Controller"
   gr: "Controller"
   sp: "Mando"
+  it: "Controller"
 
 - id: 0x01CB
   en: "Keyboard"
   gr: "Tastatur"
   sp: "Teclado"
+  it: "Tastiera"
 
 - id: 0x01CC
   en: "Automatic"
   gr: "Automatisch"
   sp: "Automáticas"
+  it: "Automatico"
 
 - id: 0x01CD
   en: "Autosaving will be done with an indicator."
   gr: "Auto-Speichern erfolgt mit einem Indikator."
   sp: "El Autoguardado se realizará con un aviso."
+  it: "L'Autosalvataggio sarà effettuato con un indicatore."
 
 - id: 0x01CE
   en: "Autosaving will be done silently."
   gr: "Auto-Speichern erfolgt unbemerkt."
   sp: "El Autoguardado se realizará silenciosamente."
+  it: "Autosalvataggio sarà effettuato silenziosamente."
 
 - id: 0x01CF
   en: "Autosaving will be disabled."
   gr: "Auto-Speichern ist deaktiviert."
   sp: "El Autoguardado estará desactivado."
+  it: "Autosalvataggio sarà disabilitato."
 
 - id: 0x01D0
   en: "The audio will be in English."
   gr: "Die Sprachausgabe wird in Englisch sein."
   sp: "El audio estará en Inglés."
+  it: "L'Audio sarà in Inglese."
 
 - id: 0x01D1
   en: "The audio will be in Japanese."
   gr: "Die Sprachausgabe wird in Japanisch sein."
   sp: "El audio estará en Japonés."
+  it: "L'Audio sarà in Giapponese."
     
 - id: 0x01D2
   en: "The background music will be MIDI Synthesized."
   gr: "Die Hintergrundmusik wird durch MIDI abgespielt."
   sp: "La música de ambiente será la original (MIDI)."
+  it: "La musica di sottofondo sarà l'originale (MIDI)."
   
 - id: 0x01D3
   en: "The background music will be remastered."
   gr: "Die Hintergrundmusik wird durch die Neuauflage abgespielt."
   sp: "La música de ambiente será la remasterizada."
+  it: "La musica di sottofondo sarà rimasterizzata."
   
 - id: 0x01D4
   en: "The Heartless will use the Classic Palette."
   gr: "Die Herzlosen nehmen die klassischen Farben an."
   sp: "Los Sincorazón tendrán el aspecto clásico."
+  it: "Gli Heartless useranno l'aspetto classico."
   
 - id: 0x01D5
   en: "The Heartless will use the Special Palette."
   gr: "Die Herzlosen nehmen die speziellen Farben an."
   sp: "Los Sincorazón tendrán el aspecto especial."
+  it: "Gli Heartless useranno l'aspetto speciale."
   
 - id: 0x01D6
   en: "The game will display the Controller Prompts."
   gr: "Das Spiel wird die Controllereingaben zeigen."
   sp: "El juego mostrará los controles de mando."
+  it: "il gioco mostrerà i comandi del Controller."
   
 - id: 0x01D7
   en: "The game will display the Keyboard Prompts."
   gr: "Das Spiel wird die Tastatureingaben zeigen."
   sp: "El juego mostrará los controles de teclado."
+  it: "Il gioco mostrerà i comandi della tastiera."
   
 - id: 0x01D8
   en: "The game will adjust the prompts automatically."
   gr: "Das Spiel wird die Eingaben automatisch anpassen."
   sp: "El juego ajustará automáticamente las indicaciones de los controles."
+  it: "Il gioco aggiusterà automaticamente i comandi."
 
 - id: 0x01D9
   en: "※※※※※※※※※※※※※※※※"
   gr: "※※※※※※※※※※※※※※※※"
   sp: "※※※※※※※※※※※※※※※※"
+  it: "※※※※※※※※※※※※※※※※"
+
 
 - id: 0x01DA
   en: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
   gr: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
   sp: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+  it: "※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
 
 - id: 0x4D6E
   en: "Achievements"
   gr: "Erfolge"
   sp: "Logros"
+  it: "Trofei"
 
 - id: 0x4D6F
   en: "Enable the Achievement Engine."
   gr: "Aktiviere die Erfolge-Engine."
   sp: "Activa el Sistema de Logros."
+  it: "Abilita il Sistema dei Trofei."
   
 - id: 0x4D70
   en: "Disable the Achievement Engine."
   gr: "Deaktiviere die Erfolge-Engine."
   sp: "Desactiva el Sistema de Logros."
+  it: "Disabilita il Sistema dei Trofei."
 
 # === Ability Text === #
 
@@ -245,6 +295,7 @@
   en: "Encounter Plus"
   gr: "Gefecht +"
   sp: "Más Encuentros"
+  it: "Più Incontri"
 
 - id: 0x3788
   en: "Increases the rate in which enemies appear, 
@@ -256,51 +307,63 @@
   sp: "Aumenta las probabilidades de encontrarse con enemigos,
   
     también aquellos que son raros."
+  it: "Incrementa il numero di nemici incontrati, 
+  
+    includendo i nemici rari."
 
 - id: 0x4E83
   en: "Dodge Roll LV1"
   gr: "Ausweichrolle LV1"
   sp: "Voltereta NV1"
+  it: "Scivolata LV1"
 
 - id: 0x4E85
   en: "Dodge Roll LV2"
   gr: "Ausweichrolle LV2"
   sp: "Voltereta NV2"
+  it: "Scivolata LV2"
 
 - id: 0x4E87
   en: "Dodge Roll LV3"
   gr: "Ausweichrolle LV3"
   sp: "Voltereta NV3"
+  it: "Scivolata LV3"
 
 - id: 0x4E8D
   en: "Sonic Blade"
   gr: "Limitklatsche"
   sp: "Estocada Veloz"
+  it: "Colpo Sonico"
 
 - id: 0x4EFE
   en: "Sonic Blade"
   gr: "Limitklatsche"
   sp: "Estocada Veloz"
+  it: "Colpo Sonico"
 
 - id: 0x4E8F
   en: "Ars Arcanum"
   gr: "Amok-Arkana"
   sp: "Último Arcano"
+  it: "Ultimo Arcanum"
 
 - id: 0x4F01
   en: "Ars Arcanum"
   gr: "Amok-Arkana"
   sp: "Último Arcano"
+  it: "Ultimo Arcanum"
 
 - id: 0x4E93
   en: "Ragnarok"
   gr: "Ragnarök"
   sp: "Ragnarok"
+  it: "Lagunarok"
 
 - id: 0x4EF6
   en: "Ragnarok"
   gr: "Ragnarök"
   sp: "Ragnarok"
+  it: "Lagunarok"
 
 # === New Game Text === #
 
@@ -308,21 +371,25 @@
   en: "Play Roxas' Story?"
   gr: "Roxas' Geschichte spielen?"
   sp: "¿Quieres jugar la historia de Roxas?"
+  it: "Giocare la Storia di Roxas?"
 
 - id: 0x4338
   en: "YES"
   gr: "JA"
   sp: "SÍ"
+  it: "SI"
 
 - id: 0x4339
   en: "NO"
   gr: "NEIN"
   sp: "NO"
+  it: "NO"
 
 - id: 0x433A 
   en: "Play through Roxas' Story normally."
   gr: "Normal durch Roxas' Geschichte spielen."
   sp: "Juega la historia completa."
+  it: "Gioca la storia di Roxas normalmente."
 
 - id: 0x433B
   en: "                Skip Roxas' Story entirely.
@@ -334,8 +401,12 @@
   sp: "                Saltar la historia de Roxas.
   
     {:color #FFFF0080}(¡Te perderás elementos importantes de la historia si lo haces!)"
+  it: "                Salta la storia di Roxas completamente.
+  
+    {:color #FFFF0080}(Mancherai importanti elementi della storia se procedi!)"
 
 - id: 0x4381
   en: "Roxas' Story"
   gr: "Roxas' Geschichte"
   sp: "Historia de Roxas"
+  it: "Storia di Roxas"
